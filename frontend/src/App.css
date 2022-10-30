@@ -1,0 +1,143 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  background-color: #d1eafe;
+}
+
+.quiz{
+   color: #03172a;
+   position: absolute;
+   top : 10px;
+   left: 43%;
+}
+
+.app {
+  background-color: #7cc6fe;
+  width: 500px;
+  min-height: 250px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.score-section {
+  text-align: center;
+  background-color: #4eb2ff;
+  padding: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+}
+
+
+
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4f6dcd;
+  border-radius: 25px;
+  display: flex;
+  padding: 7px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid #234668;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+.actions {
+  display: flex;
+  margin-top: 15px;
+}
+.actions button {
+  background-color: #98a2f7;
+  justify-content: center;
+}
+.actions button:hover {
+  background-color: #234668;
+  color: white;
+}
+.dashboard{
+   background-color: #4eb2ff;
+   padding: 10px 100px 100px 100px;
+   border-radius: 25px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.dashboard th,td,table {
+   padding: 8px 25px;
+   border: 2px solid white;
+   border-collapse: collapse;
+   text-align: center;
+}
+.dashboard th{
+   font-weight: 600;
+   font-size: 20px;
+   color: #042342;
+}
+
+.dashboard > h1{
+  color: #4f6dcd;
+  text-align: center;
+}
+.homebtn{
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4f6dcd;
+  border-radius: 25px;
+  display: flex;
+  padding: 7px;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #234668;
+  cursor: pointer;
+  margin-top: 20px;
+}
